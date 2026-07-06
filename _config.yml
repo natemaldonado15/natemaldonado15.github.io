@@ -1,143 +1,88 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# Nathan Maldonado Mechanical Engineering Portfolio
+# Global site settings for GitHub Pages. Change the profile-image filename and
+# Formspree endpoint only after those assets and services have been added.
 
-# Main Page Setup
-
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
-
-
+title: "Nathan Maldonado | Mechanical Engineering Portfolio"
+url: "https://natemaldonado15.github.io"
+baseurl: ""
+timezone: "America/New_York"
 
 # Hero Section
-name: John Doe
-headline: headline message
-description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+name: "Nathan Maldonado"
+headline: "Mechanical Engineer | Simulation, Prototyping, and Manufacturing Development"
+description: >-
+  Mechanical Engineering M.S. candidate at Worcester Polytechnic Institute with experience
+  in nonlinear simulation, experimental validation, precision grinding, additive-manufacturing
+  post-processing, and rapid prototype development. Former Research Engineer at Saint-Gobain
+  Abrasives, where I supported aerospace grinding trials, vibration root-cause investigations,
+  and manufacturing process improvements. My graduate research develops a force-controlled
+  FEM-SPH model for HydroFlex polishing of additively manufactured metal internal channels.
 
-# Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+# Upload a professional headshot with this exact filename before publishing.
+profile_image: "/assets/images/profile-image/nathan-maldonado.jpg"
 
+# Upload a public, current resume with this exact filename before publishing.
+resume-url: "/assets/resume/Nathan_Maldonado_Resume.pdf"
 
-# Link your resume
-# You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
+# Leave unknown or unused platforms blank. The template displays only populated icons.
+external-links:
+  linkedin: "natemaldonado15"
+  github: "natemaldonado15"
+  stackoverflow: ""
+  medium: ""
+  x-twitter: ""
+  threads: ""
+  instagram: ""
+  youtube: ""
+  discord: ""
+  bluesky: ""
 
-
-# Set up external links - this will show up as small icons next to your name.
-
-external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
-  medium:            # https://medium.com/@{your url slug} 
-  x-twitter:   # https://x.com/{your url slug} 
-  threads:            # https://threads.net/@{your url slug} 
-  instragram:       # https://instagram.com/{your url slug} 
-  youtube:           # https://youtube.com/@{your url slug} 
-  discord:            # https://discord.com/users/{your url slug} 
-  bluesky:           # https://bsky.app/profile/{your url slug} 
-  
-
-# Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
+# Skills Section
 skills:
-  - category: 3D Modeling
+  - category: "CAD, Design, and Manufacturing"
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
+      - "SolidWorks"
+      - "Siemens NX"
+      - "CAD/CAM and G-code"
+      - "Design for Manufacturability"
+      - "GD&T and fixture verification"
+      - "Milling, turning, and rapid prototyping"
+  - category: "Simulation and Engineering Analysis"
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+      - "ANSYS LS-DYNA"
+      - "ANSYS Fluent"
+      - "Abaqus"
+      - "Nastran"
+      - "Nonlinear FEA and FEM-SPH modeling"
+      - "CFD, structural analysis, and vibration analysis"
+  - category: "Testing, Data, and Optimization"
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
+      - "Design of Experiments"
+      - "Minitab and JMP"
+      - "MATLAB and Python"
+      - "Frequency-response testing and stiffness modeling"
+      - "Metrology and CMM methods"
+      - "Statistical analysis and root-cause investigation"
+  - category: "Additive Manufacturing and Hardware Prototyping"
     tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
-    tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+      - "Polymer and metal additive manufacturing"
+      - "Chemical vapor smoothing and post-processing"
+      - "Arduino and sensor integration"
+      - "3D printing and test-fixture development"
+      - "Experimental validation and field testing"
 
+# Paste only the Formspree endpoint ID here, not the full URL.
+# Example: formspree-key: "abcdwxyz"
+formspree-key: ""
 
-# Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
-
-
-
-# Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
-colors: # this is the basic theme
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
+# Professional engineering palette
+colors:
+  text: "#17212b"
+  border: "#d4dde6"
+  link: "#1769aa"
+  highlight: "#0f4c81"
   background: "#ffffff"
-  light_background: "#f3f5fb"
-
-# A few examples. 
-basic theme:
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-  
-  mint theme:
-  text: "#2c3333"
-  border: "#e0f2ef"
-  link: "#40b3a2"
-  highlight: "#2a9d8f"
-  background: "#f7fbfa"
-  light_background: "#f0f9f7"
-  
-lemon theme:
-  text: "#2d2926"
-  border: "#f7f3e3"
-  link: "#ffc94d"
-  highlight: "#ffb800"
-  background: "#fffdf5"
-  light_background: "#fff9e6"
-  
-  pink theme:
-  text: "#2d2d2d"
-  border: "#f8e2e2"
-  link: "#ff8fa3"
-  highlight: "#ff4d6d"
-  background: "#fff8f8"
-  light_background: "#fff5f6"
-
-
-
-
-
+  light_background: "#f3f7fa"
 
 #########################################################################################################
 # Build settings for the site. Editing the below may cause the site to malfunction.
