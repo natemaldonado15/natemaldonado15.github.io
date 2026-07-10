@@ -946,4 +946,63 @@ footer p {
 
       
 }
+/* LIFE SECTION */
+.life-section {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
 
+.life-section h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.life-section .life-intro {
+    max-width: 900px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.life-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.life-card {
+    background: var(--background-color);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+                0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+}
+
+.life-card img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    display: block;
+}
+
+.life-card-text {
+    padding: 18px;
+}
+
+.life-card-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.life-card-text p {
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+/* Optional: make the footer smaller now that template captions are removed */
+footer {
+    min-height: 90px;
+}
