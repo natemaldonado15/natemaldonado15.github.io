@@ -7,7 +7,7 @@
                 I'm {{ site.name | split: ' ' | first }} 
                 {% if site.external-links %}
                 <span class="external-links">
-                    {% assign platforms = "linkedin,discord,instagram" | split: "," %}
+                    {% assign platforms = "linkedin,github,instagram" | split: "," %}
                     {% for platform in platforms %}
                         {% if site.external-links[platform] %}
                             {% case platform %}
