@@ -11,12 +11,7 @@ timezone: "America/New_York"
 name: "Nathan Maldonado"
 headline: "Mechanical Engineer | Simulation, Prototyping, and Manufacturing Development"
 description: >-
-  Mechanical Engineering M.S. candidate at Worcester Polytechnic Institute with experience
-  in nonlinear simulation, experimental validation, precision grinding, additive-manufacturing
-  post-processing, and rapid prototype development. Former Research Engineer at Saint-Gobain
-  Abrasives, where I supported aerospace grinding trials, vibration root-cause investigations,
-  and manufacturing process improvements. My graduate research develops a force-controlled
-  FEM-SPH model for HydroFlex polishing of additively manufactured metal internal channels.
+  Mechanical Engineering M.S. candidate at Worcester Polytechnic Institute, graduating August 2026, with experience in rapid prototyping, additive-manufacturing post-processing, precision machining and grinding, and nonlinear simulation. Former Research Engineer at Saint-Gobain Abrasives, where I supported product development through aerospace grinding and machining trials, root-cause investigations, and manufacturing process improvements. My graduate research develops an FEA model for HydroFlex, a WPI-developed polishing process for additively manufactured metal internal channels using abrasive grinding.
 
 # Upload a professional headshot with this exact filename before publishing.
 profile_image: "/assets/images/profile-image/nathan-maldonado.jpg"
