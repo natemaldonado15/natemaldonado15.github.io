@@ -20,7 +20,7 @@ main-image: /Hydroflex_Cover_Photo.jpg
 
 # Problem
 
-HydroFlex is a hydrodynamic flexible spindle polishing process developed at WPI for finishing internal channels in additively manufactured metal components. The process uses a small electroplated abrasive grinding wheel mounted on a flexible spindle and driven at high rotational speed inside an as-built channel.
+HydroFlex is a hydrodynamic flexible spindle polishing process developed at WPI for finishing internal channels in additively manufactured metal components. It was developed as an alternative to popular methods like abrasive flow machining and chemical polishing, which struggle with pressure drops and uniformity in narrow or complex channels. The process uses a small electroplated abrasive grinding wheel mounted on a flexible spindle and driven at high rotational speed inside an as-built channel.
 
 <figure class="project-figure">
     <img src="/_projects/01-hydroflex-grinding-simulation/Hydroflex_Main_Photo.jpg" alt="HydroFlex polishing tool positioned inside an additively manufactured internal channel">
