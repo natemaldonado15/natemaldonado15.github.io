@@ -1,20 +1,19 @@
 ---
 layout: post
 title: "Low-Cost Non-Contact Flow Measurement"
-description: "Designed and validated a sub-$1,000 flowmeter concept that measures the external reaction force generated as fluid turns through a bend."
+description: "Designed and tested a sub-$1,000 flowmeter prototype for slurry-like and challenging flows. Measured the external reaction force generated as fluid turns through a bend, without contacting or clogging.
+
 skills:
-  - "SolidWorks"
   - "ANSYS Fluent"
-  - "Fluid Mechanics"
-  - "3D Printing"
-  - "Load-Cell Testing"
-  - "Experimental Validation"
+  - "Design of Experiments"
+  - "Rapid Prototyping"
+  - "Structural Analysis"
+
 main-image: /flowmeter-cad-assembly.jpg
 ---
 
 > **Role:** R&D Intern, Saint-Gobain Performance Plastics  
 > **Project period:** May to August 2021  
-> **Target:** A practical, non-intrusive concept below $1,000 for slurry-like and challenging flows.
 
 ## What
 
